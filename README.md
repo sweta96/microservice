@@ -43,15 +43,19 @@ This project consists to two microservices, **Publisher Service** and **Subscrib
 
 **properties:**
 
-server_port=8080
+`server_port=8080`
 
-cassandra_host=127.0.0.1
-cassandra_port=9042
-cassandra_keyspace=microservice
+`cassandra_host=127.0.0.1`
 
-kafka_host=localhost
-kafka_port=9092
-kafka_topic=microservice
+`cassandra_port=9042`
+
+`cassandra_keyspace=microservice`
+
+`kafka_host=localhost`
+
+`kafka_port=9092`
+
+`kafka_topic=microservice`
 
 1. ```
     curl --location --request POST ‘http://localhost:8080/cassandra/tables’
